@@ -40,6 +40,7 @@ class App extends React.Component {
           break;
         }
       }
+
       messages.push(tmpStr);
     }
 
