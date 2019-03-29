@@ -35,7 +35,10 @@ class NavBar extends Component {
           <div className="input-group w-50 order-3 order-md-2">
             <div className="input-group-prepend">
               <button className="input-group-text" onClick={this.onClick}>
-                <i className="fa fa-twitter" aria-hidden="true" />
+                <i
+                  className="fa fa-twitter twitter-symbol"
+                  aria-hidden="true"
+                />
               </button>
             </div>
             <input

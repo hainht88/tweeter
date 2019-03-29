@@ -29,7 +29,13 @@ const Content = props => {
   return (
     <div className="container mt-3">
       <div className="row">
-        <div className="col-md-9">{cards}</div>
+        <div className="col-md-9">
+          {props.messages.length === 0 ? (
+            <p className="lead">Hey, Howdy?</p>
+          ) : (
+            cards
+          )}
+        </div>
         <SideBar />
       </div>
     </div>

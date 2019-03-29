@@ -1,3 +1,7 @@
 .top-navbar-items {
-    margin-top: 1rem;
+  margin-top: 1rem;
+}
+
+.twitter-symbol:hover {
+  color: #007bff;
 }
